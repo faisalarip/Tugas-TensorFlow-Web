@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "includeFiles": "models/**",
+      "excludeFiles": "{TK1_Preprocessing_CIFAR10.ipynb - Colab.pdf,TK1_Preprocessing_CIFAR10.ipynb - Colab-1.pdf,TK1_Preprocessing_CIFAR10.ipynb - Final.pdf,TK1_Preprocessing_CIFAR10.ipynb - Colab-1.docx,TK1_Preprocessing_CIFAR10.ipynb - Final.docx,__pycache__/**,.git/**}"
+    }
+  }
+}
