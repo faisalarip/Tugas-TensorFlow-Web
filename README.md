@@ -64,6 +64,14 @@ http://127.0.0.1:5000
 - Prediksi kelas gambar
 - Tampilkan hasil prediksi
 
+## Deploy ke Render
+
+1. Push project ini ke GitHub
+2. Buka Render dan pilih **New +** -> **Blueprint**
+3. Hubungkan repository `Tugas-TensorFlow-Web`
+4. Render akan membaca file `render.yaml` otomatis
+5. Jalankan deploy dan tunggu sampai service aktif
+
 ## Kelas CIFAR-10
 
 - airplane

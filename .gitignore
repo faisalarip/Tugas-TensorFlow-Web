@@ -3,5 +3,6 @@ __pycache__/
 .DS_Store
 .venv/
 venv/
-models/
+models/*
+!models/cifar10_cnn.keras
 .vercel-home/
