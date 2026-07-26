@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import base64
 from io import BytesIO
+import os
 from pathlib import Path
 
 from flask import Flask, render_template_string, request
@@ -355,4 +356,5 @@ def index() -> str:
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.getenv("PORT", "5000"))
+    app.run(host="0.0.0.0", port=port, debug=False)
